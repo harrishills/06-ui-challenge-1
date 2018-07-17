@@ -1,86 +1,82 @@
-/* Baseline Module Styling */
-div:not(.container) {
-  padding-top: 15px;
-  padding-left: 15px;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 /* Mobile Styling */
 .a {
   display: flex;
-  width: 100%;
+  /* width: 1fr; */
   height: 75px;
   outline: 1px solid #888;
   background-image: url(http://via.placeholder.com/480x75);
-  max-width: 100%;
+  background-size: 100% auto; 
 }
 .b {
   display: flex;
-  width: 20.83%;
+  /* width: 20.83%; */
   height: 150px;
   outline: 1px solid #888;
   background-image: url(http://via.placeholder.com/480x150);
-  max-width: 100%;
+  background-size: 100% auto; 
 }
 .c, .d {
   display: flex;
-  width: 39.58%;
+  /* width: 39.58%; */
   height: 125px;
   outline: 1px solid #888;
   background-image: url(http://via.placeholder.com/480x125);
-  max-width: 100%;
+  background-size: 100% auto; 
 }
 .e, .f, .g, .h {
   display: flex;
-  width: 25%;
+  /* width: 25%; */
   height: 250px;
   outline: 1px solid #888;
   background-image: url(http://via.placeholder.com/240x250);
-  max-width: 100%;
+  background-size: 100% auto; 
 }
 
 .i {
   display: flex;
-  width: 50%;
+  /* width: 50%; */
   height: 80px;
   outline: 1px solid #888;
   background-image: url(http://via.placeholder.com/480x80);
-  max-width: 100%;
+  background-size: 100% auto; 
 }
 
 /* Desktop Styling */
-@media all and (min-width: 480px) {
+@media all and (min-width: 768px) {
   .a {
-    width: 960px;
+    display: flex;
     height: 100px;
     outline: 1px solid #888;
     background-image: url(http://via.placeholder.com/960x100);
+    background-size: 100% auto; 
   }
   .b {
-    width: 200px;
+    display: flex;
     height: 600px;
     outline: 1px solid #888;
     background-image: url(http://via.placeholder.com/200x600);
+    background-size: 100% auto; 
   }
   .c, .d {
-    width: 380px;
+    display: flex;
     height: 200px;
     outline: 1px solid #888;
     background-image: url(http://via.placeholder.com/380x200);
+    background-size: 100% auto; 
   }
   .e, .f, .g, .h {
-    width: 190px;
+    display: flex;
     height: 250px;
     outline: 1px solid #888;
     background-image: url(http://via.placeholder.com/190x250);
+    background-size: 100% auto; 
   }
 
   .i {
-    width: 150px;
-    height: 760px;
+    display: flex;
+    height: 120px;
     outline: 1px solid #888;
     background-image: url(http://via.placeholder.com/760x150);
-    
+    background-size: 100% auto; 
   }
 }
