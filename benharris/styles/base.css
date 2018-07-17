@@ -2,7 +2,12 @@ html {
   background: #fff;
 }
 body {
-  width: 960px;
-  margin: 0 auto;
   box-sizing: border-box;
+}
+
+div:not(.container) {
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
